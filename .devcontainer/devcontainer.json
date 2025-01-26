@@ -1,10 +1,11 @@
 {
-  "name": "Go Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/go:1-1.22-bookworm",
+  "name": "COMP423 Course Notes",
+  "image": "mcr.microsoft.com/devcontainers/python:latest",
   "customizations": {
-      "vscode": {
+    "vscode": {
       "settings": {},
-      "extensions": ["golang.go"]
-      }
-  }
-  }
+      "extensions": ["ms-python.python"]
+    }
+  },
+  "postCreateCommand": "pip install -r requirements.txt"
+}

@@ -121,5 +121,7 @@ Step 6: Push changes to Github
         git commit -m "your message here"
 
 3. Push to remote
-
+        
+        git branch -M main
+        
         git push origin main
