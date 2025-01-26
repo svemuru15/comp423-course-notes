@@ -19,10 +19,11 @@ Install the following softwares:
 
 1. Open terminal and run the following commands:
         
-
+```bash
         mkdir hello-world-go
         cd hello-world-go
         git init
+```
 
 2. Create your Github Repository
     
@@ -40,19 +41,22 @@ Install the following softwares:
 
     Add the Github repo using the below command in the terminal(replace your-username with your GitHub username):
 
+```bash
         git remote add origin https://github.com/<your-username>/hello-world-go
-
+```
 
 ## Step 2: Setup Dev Container
 
 1. Create a .devcontainer directory and a devcontainer.json file using the below commands:
 
+```bash
         mkdir .devcontainer
-
         touch .devcontainer/devcontainer.json
+```
 
 2. Add the following to your devcontainer.json file:
 
+```json
         {
         "name": "Go Dev Container",
         "image": "mcr.microsoft.com/devcontainers/go:1-1.22-bookworm",
@@ -63,6 +67,7 @@ Install the following softwares:
             }
         }
         }
+```
 
 3. Reopen the Project in a VSCode Dev Container
 
@@ -70,28 +75,33 @@ Install the following softwares:
 
 4. Verify that Go is installed in the container by running:
 
+```go
         go version
-
+```
 
 ## Step 3: Create Go Project
 
 1. Run the following commands in the dev container(replace your-username with your GitHub username):
 
+```go
         go mod init github.com/<yourusername>/hello-world-go
+```
 
 2. Create the main.go file:
 
+```go
         touch main.go
+```
 
 3. Paste the following code into your hello.go file and save the file:
 
+```go
         package main
-
         import "fmt"
-
         func main() {
             fmt.Println("Hello COMP423")
         }
+```
 
 ## Step 4: Compile and Run Go Project
 
