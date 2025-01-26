@@ -18,11 +18,10 @@ Install the following softwares:
 ## Step 1: Create Github Reposity and Local Directory
 
 1. Open terminal and run the following commands:
-    
+        
+
         mkdir hello-world-go
-
         cd hello-world-go
-
         git init
 
 2. Create your Github Repository
