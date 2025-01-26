@@ -91,7 +91,7 @@ Install the following softwares:
         import "fmt"
 
         func main() {
-            fmt.Println("Hello, World!")
+            fmt.Println("Hello COMP423")
         }
 
 ## Step 4: Compile and Run Go Project
