@@ -78,7 +78,7 @@ Install the following softwares:
 
 1. Run the following commands in the dev container(replace your-username with your GitHub username):
 
-        go mod init github.com/<yourusername>/go-hello-world
+        go mod init github.com/<yourusername>/hello-world-go
 
 2. Create the main.go file:
 
