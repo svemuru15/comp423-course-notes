@@ -71,7 +71,7 @@ Install the following softwares:
 
 4. Verify that Go is installed in the container by running:
 
-        go --version
+        go version
 
 
 ## Step 3: Create Go Project
