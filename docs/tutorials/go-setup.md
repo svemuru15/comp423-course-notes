@@ -107,9 +107,9 @@ Install the following softwares:
 3. An alternative way to do this would be to use the run command which combines these 2 steps:
 
         go run main.go
-
+!!! note
 The go run command compiles and executes the code immediately, but the compilation is not stored. This helps us as this makes sure less storage is used. The go build command compiles the code and creates a permanent binary file that can be run independently. In the same way as gcc, go build converts code into an executable file.
-
+!!!
 Step 6: Push changes to Github
 
 1. Stages files:
